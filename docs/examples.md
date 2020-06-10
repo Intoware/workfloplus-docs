@@ -1,15 +1,28 @@
 ---
 layout: page
 title: Example Queries
-permalink: /docs/examples
+permalink: /examples
 nav_order: 99
-has_toc: true
 ---
 
 # Example Queries
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 This page contains a number of example queries that you can use in the Query Designer. All of these queries can be copied directly into the Query Designer as-is to provide a starting block for your own queries.
 
-### Get All Reports
+## Get All Reports
+
+Coming Soon
+{: .label .label-yellow }
+
 Gets the latest 5 jobs containing with a list of generated PDF reports and their download link.
 
 ```graphql
@@ -30,7 +43,7 @@ Gets the latest 5 jobs containing with a list of generated PDF reports and their
 }
 ```
 ​
-### Get All Attachments (original file only)
+## Get All Attachments (original file only)
 Gets the latest 5 jobs containing a list of all received attachments along with download links and metadata.
 
 *Note: See below for an example on Thumbnails*
@@ -55,7 +68,7 @@ Gets the latest 5 jobs containing a list of all received attachments along with 
 }
 ```
 ​
-### Get All Attachment Thumbnails
+## Get All Attachment Thumbnails
 
 For the latest 5 jobs, gets their attachments and any thumbnails generated. Usually there are 3 JPEG thumbnails (small, medium and large) generated for each image and video.
 
@@ -83,7 +96,7 @@ For the latest 5 jobs, gets their attachments and any thumbnails generated. Usua
 }
 ```
 ​
-### Get Substep Tags
+## Get Substep Tags
 
 For the latest 5 jobs, get a list of all step tags captured during execution.
 
@@ -105,7 +118,7 @@ For the latest 5 jobs, get a list of all step tags captured during execution.
 ```
 ​
 ​
-### Get Job Level Data
+## Get Job Level Data
 
 For the latest 5 jobs, gather more detailed metadata on the job.
 
@@ -134,6 +147,25 @@ For the latest 5 jobs, gather more detailed metadata on the job.
     {
       name
       value
+    }
+  }
+}
+```
+
+## Get All Users
+
+Coming Soon
+{: .label .label-yellow }
+
+Gets the list of all users and their groups
+
+```graphql
+{
+  users {
+    emailAddress
+    name
+    userGroups {
+      name
     }
   }
 }

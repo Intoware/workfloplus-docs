@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GraphQL Overview
-permalink: /docs/graphql-overview
+permalink: /graphql-overview
 nav_order: 3
 ---
 
