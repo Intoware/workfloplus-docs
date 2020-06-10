@@ -18,7 +18,31 @@ nav_order: 99
 
 This page contains a number of example queries that you can use in the Query Designer. All of these queries can be copied directly into the Query Designer as-is to provide a starting block for your own queries.
 
+## Get Latest Jobs
+
+Gets the latest 20 jobs with some basic metadata.
+
+*Note: The updated date is being renamed to `completed`*
+
+```graphql
+{
+  jobs (limit: 20 order: "desc")
+  {
+    jobId               # ID of the job
+    jobTitle            # Title of the job (possibly overriden by the user)
+    workflowTitle       # Title of the workflow (if different from job title)
+    created             # When the job was started
+    completed: updated  # When the job was completed
+    totalDuration       # Total Duration of the job in seconds
+    userName            # Who completed the job
+    geoLongAverage      # GPS Longitude of the job
+    geoLatAverage       # GPS Latitude of the job
+  }
+}
+```
+
 ## Get All Reports
+{: .d-inline-block }
 
 Coming Soon
 {: .label .label-yellow }
@@ -153,7 +177,7 @@ For the latest 5 jobs, gather more detailed metadata on the job.
 ```
 
 ## Get All Users
-
+{: .d-inline-block }
 Coming Soon
 {: .label .label-yellow }
 
