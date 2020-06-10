@@ -30,6 +30,11 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
+# Aux links for the upper right navigation
+aux_links:
+  "WorkfloPlus Documentation on GitHub":
+    - "//github.com/intoware/workfloplus-docs"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
