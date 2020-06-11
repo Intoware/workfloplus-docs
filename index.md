@@ -10,3 +10,8 @@ permalink: /
 ---
 
 # WorkfloPlus Developer Documentation
+
+This website contains Developer Documentation for WorkfloPlus by [Intoware](https://www.intoware.com), a Digital Instruction Toolkit.
+This documentation will describe how to access data held within WorkfloPlus programatically using GraphQL.
+
+Please see [WorkfloPlus Support](https://help.workfloplus.com) for the standard User Documentation.
