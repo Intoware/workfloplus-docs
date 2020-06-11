@@ -47,3 +47,5 @@ aux_links:
 #   - vendor/ruby/
 
 footer_content: "Copyright &copy; 2020 Intoware Limited."
+
+logo: assets/logo.png
