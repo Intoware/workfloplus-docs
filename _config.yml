@@ -16,7 +16,7 @@
 title: WorkfloPlus Docs
 email: info@intoware.com
 description: >- # this means to ignore newlines until "baseurl:"
-  WorkfloPlus Documentation for Developers. Simple guides and refernce material
+  WorkfloPlus Documentation for Developers. Simple guides and reference material
   for extracting data from your WorfkloPlus Team.
 baseurl: "/workfloplus-docs" # the subpath of your site, e.g. /blog
 url: "https://intoware.github.io" # the base hostname & protocol for your site, e.g. http://example.com
