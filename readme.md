@@ -23,3 +23,5 @@ Contributions are welcome. Feel free to fork the repository, make changes and su
 ## More Info
 
 For more information on Intoware or WorkfloPlus visit www.intoware.com.
+
+Intoware and WorkfloPlus are registered trademarks of Intoware Limited, a company registered in England and Wales. All rights reserved.
