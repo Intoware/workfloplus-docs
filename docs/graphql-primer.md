@@ -2,7 +2,7 @@
 layout: page
 title: GraphQL Overview
 permalink: /graphql-overview
-nav_order: 3
+nav_order: 2
 ---
 
 # GraphQL Overview
@@ -49,7 +49,7 @@ This is querying for the same data, but is instead being accessed from either di
 
 ### More Information
 
-There is a huge wealth of information on GraphQL and its features at [graphql.org](https://www.graphql.org).
+There is a huge wealth of information on GraphQL and its features at [graphql.org](https://www.graphql.org){:target="_blank"}.
 
 ---
 
@@ -63,7 +63,7 @@ Within WorkfloPlus, GraphQL is designed to be embedded into data clients (ie: so
 Preferred
 {: .label .label }
 
-Available within the [WorkfloPlus Dashboard](https://dashboard.workfloplus.com/query) (WorkfloPlus account required), the Query Designer can be used to test your GraphQL queries against the data in your WorkfloPlus Team. Once you have tested out your query then you can export a GET or POST URL to import into your own system.
+Available within the [WorkfloPlus Dashboard](https://dashboard.workfloplus.com/query){:target="_blank"} (WorkfloPlus account required), the Query Designer can be used to test your GraphQL queries against the data in your WorkfloPlus Team. Once you have tested out your query then you can export a GET or POST URL to import into your own system.
 
 For more information on the query designer, see [here](query-designer).
 
@@ -72,11 +72,11 @@ For more information on the query designer, see [here](query-designer).
 
 ### Postman
 
-The excellent [Postman Tool](https://www.getpostman.com) has built-in support for making GraphQL queries. To access the WorkfloPlus GraphQL endpoint, you'll need to fetch an [access key](getting-access) in order to get access to the data.
+The excellent [Postman Tool](https://www.getpostman.com){:target="_blank"} has built-in support for making GraphQL queries. To access the WorkfloPlus GraphQL endpoint, you'll need to fetch an [access key](getting-access) in order to get access to the data.
 
 Unlike the WorkfloPlus Query Designer, Postman supports GraphQL variables. This will allow you to design your queries for reuse so you can separate your template and variables. WorkfloPlus supports the full GraphQL specification for variables.
 
-*See the [GraphQL specification on variables](https://graphql.org/learn/queries/#variables) for more information*
+*See the [GraphQL specification on variables](https://graphql.org/learn/queries/#variables){:target="_blank"} for more information*
 
 ![Postman GraphQL Example](assets/postman.png)
 *Postman WorkfloPlus GraphQL Example*
@@ -87,9 +87,9 @@ If you'd like to build this functionality into your application, you can access 
 
 `https://gateway.workfloplus.com/api/query/v2/graph`
 
-*Note, you will need to authenticate this request using one of the supports [access key formats](getting-access)*
+*Note, you will need to authenticate this request using one of the supported [access key formats](getting-access)*
 
-For a more detailed explanation, see [GraphQL.org - Serving over HTTP](https://graphql.org/learn/serving-over-http/).
+For a more detailed explanation, see [GraphQL.org - Serving over HTTP](https://graphql.org/learn/serving-over-http/){:target="_blank"}.
 
 **GET Request**
 
