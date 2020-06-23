@@ -1,3 +1,10 @@
+---
+layout: page
+title: Job Query Documentation
+permalink: /jobquery
+nav_order: 11
+---
+
 # Querying Jobs
 Querying for Jobs is the most common application of the WorkfloPlus Query API
 
@@ -14,14 +21,6 @@ The base query structure for a job query is as follows (N.B. this query alone wi
 
 ## Filtering on specific Jobs
 By default the query will return the first 100 completed jobs for your team; however there are several query parameters that can be used to filter the query to return only the required jobs
-```graphql
-{
-    jobs
-    {
-        
-    }
-}
-```
 
 ### Filtering on Workflow(s)
 There are several options for filtering on workflows but you can only apply one of them
@@ -479,7 +478,7 @@ The downloadUrl for each attachment and each thumbnail is a temporary URL that c
 "downloadUrl": "https://wfp.blob.core.windows.net/stepresources/myteam/63e39d97-d6cb-433b-b69c-2e2ed6c76f37?sv=2019-02-02&sr=b&sig=HgS7dodYUEinIr3dXE%2BSH5isA3BBe8bZREg2I6m%2FvCo%3D&st=2020-06-17T14%3A55%3A56Z&se=2020-06-17T16%3A00%3A56Z&sp=r",
 ...
 ```
-That downloadUrl can be used in a Http request
+That downloadUrl can be used in a Http request; the snippet below uses a downloadUrl returned by a query to save an attachment to a file called "myattachmentfile"
 ```
 curl "https://wfp.blob.core.windows.net/stepresources/myteam/63e39d97-d6cb-433b-b69c-2e2ed6c76f37?sv=2019-02-02&sr=b&sig=HgS7dodYUEinIr3dXE%2BSH5isA3BBe8bZREg2I6m%2FvCo%3D&st=2020-06-17T14%3A55%3A56Z&se=2020-06-17T16%3A00%3A56Z&sp=r" --output myattachmentfile
 ```
