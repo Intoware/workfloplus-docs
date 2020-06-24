@@ -17,10 +17,10 @@ nav_order: 11
 ---
 
 
-# Introduction
+## Introduction
 Querying for Jobs is the most common application of the WorkfloPlus Query API
 
-## Starting a Query
+### Starting a Query
 The base query structure for a job query is as follows (N.B. this query alone will not work as at least one field must be specified)
 ```graphql
 {
@@ -31,13 +31,14 @@ The base query structure for a job query is as follows (N.B. this query alone wi
 }
 ```
 
-# Filtering on specific Jobs
+## Filtering on specific Jobs
 By default the query will return the first 100 completed jobs for your team; however there are several query parameters that can be used to filter the query to return only the required jobs
 
-## Filtering on Workflow(s)
+### Filtering on Workflow(s)
 There are several options for filtering on workflows but you can only apply one of them
 
 **Filtering on WorkflowId(s)**
+
 If you wish to match on one or more workflow Ids you can add this as part of the query
 ```graphql
 {
@@ -57,6 +58,7 @@ If you wish to match on one or more workflow Ids you can add this as part of the
 ```
 
 **Filtering on Workflow Title(s)**
+
 If you wish to match on one or more workflow titles you can add this as part of the query
 ```graphql
 {
@@ -76,6 +78,7 @@ If you wish to match on one or more workflow titles you can add this as part of 
 ```
 
 **Filtering on Workflow Tag(s)**
+
 If you wish to match on one or more workflow tags you can add this as part of the query; when matching on multiple workflows you can either match workflows that have at least one of the tags listed (workflowTagsOr) or alternatively only on workflows that have all of the tags listed (workflowTagsAnd)
 ```graphql
 {
@@ -103,10 +106,11 @@ If you wish to match on one or more workflow tags you can add this as part of th
 ```
 
 
-## Filtering on User(s)
+### Filtering on User(s)
 There are two options for filtering on the user that completed a job but you can only apply one of them
 
 **Filtering on Username(s)**
+
 If you wish to match on one or more usernames you can add this as part of the query
 ```graphql
 {
@@ -126,6 +130,7 @@ If you wish to match on one or more usernames you can add this as part of the qu
 ```
 
 **Filtering on UserId(s)**
+
 If you wish to match on one or more user Ids you can add this as part of the query
 ```graphql
 {
@@ -144,10 +149,11 @@ If you wish to match on one or more user Ids you can add this as part of the que
 }
 ```
 
-## Filtering on Job Identifier(s)
+### Filtering on Job Identifier(s)
 There are two options for filtering on specific job identifiers but you can only apply one of them
 
 **Filtering on Job Titles(s)**
+
 If you wish to match on one or more job titles you can add this as part of the query
 ```graphql
 {
@@ -167,6 +173,7 @@ If you wish to match on one or more job titles you can add this as part of the q
 ```
 
 **Filtering on JobId(s)**
+
 If you wish to match on one or more job Ids you can add this as part of the query
 ```graphql
 {
@@ -185,10 +192,11 @@ If you wish to match on one or more job Ids you can add this as part of the quer
 }
 ```
 
-## Filtering on Date and Time
+### Filtering on Date and Time
 There are options for filtering on the date and time that a job was both created and updated and also on, any combination of the following can be applied together
 
 **Filtering on jobs created since a given date and time**
+
 If you wish to filter on jobs created since a given date and time you can specifiy that as an ISO format datetime 
 ```graphql
 {
@@ -200,6 +208,7 @@ If you wish to filter on jobs created since a given date and time you can specif
 ```
 
 **Filtering on jobs created before a given date and time**
+
 If you wish to filter on jobs created before a given date and time you can specifiy that as an ISO format datetime 
 ```graphql
 {
@@ -211,6 +220,7 @@ If you wish to filter on jobs created before a given date and time you can speci
 ```
 
 **Filtering on jobs updated since a given date and time**
+
 If you wish to filter on jobs updated since a given date and time you can specifiy that as an ISO format datetime 
 ```graphql
 {
@@ -222,6 +232,7 @@ If you wish to filter on jobs updated since a given date and time you can specif
 ```
 
 **Filtering on jobs updated before a given date and time**
+
 If you wish to filter on jobs updated before a given date and time you can specifiy that as an ISO format datetime 
 ```graphql
 {
@@ -232,7 +243,7 @@ If you wish to filter on jobs updated before a given date and time you can speci
 }
 ```
 
-## Limit, Order & Pagination
+### Limit, Order & Pagination
 
 By default a query on the Jobs model will return data for up to the first 100 jobs that meet the criteria of the filter, however this number can be specified using the limit parameter, any value between 1 and 1000 is allowed.
 
@@ -249,9 +260,9 @@ As the number of jobs increases it becomes inefficient to pull down the entire d
 }
 ```
 
-# Selecting Job Fields
+## Selecting Job Fields
 
-## Selecting Fields on the Job Level
+### Selecting Fields on the Job Level
 There are a range of fields on the job level that can be included in the query and returned
 ```graphql
 {
@@ -283,7 +294,7 @@ There are a range of fields on the job level that can be included in the query a
 }
 ```
 
-## Selecting Fields on the Steps Level
+### Selecting Fields on the Steps Level
 Additionally the Steps field can be included on the Job level, this then returns an array of information for each step
 ```graphql
 {
@@ -317,7 +328,7 @@ Additionally the Steps field can be included on the Job level, this then returns
 }
 ```
 
-## Selecting Fields on the Substeps Level
+### Selecting Fields on the Substeps Level
 Many users will not need to consider to substeps level and will be able to build all queries at the steps level. Substeps apply where Form Steps are used, here we have the concept of steps within steps and the substeps level allows you to break out the detail at each substep within a form.
 ```graphql
 {
@@ -341,10 +352,11 @@ Many users will not need to consider to substeps level and will be able to build
 }
 ```
 
-## Selecting Specific Steps
+### Selecting Specific Steps
 Specific steps can be selected to be returned in the query and named at the same time
 
 **Step Search**
+
 A search term can be applied to the steps array, this will look for an exact match against each stepId, stepTag and then stepTitle. If none are found it will return null, if one or more matches are found it will return the first match that it finds.
 
 The following query will return the jobId for each job, then the specified information for the first step that it finds that has a tag or title that matches "Instruction", then the specified information for the first step that it finds that has one of the stepIds in the list shown
@@ -393,11 +405,11 @@ Documentation on [regex patterns can be found here](https://docs.microsoft.com/e
 }
 ```
 
-# Select Job Attachments
+## Select Job Attachments
 
 The attachments comprise all of the photos, images, videos, files etc that have been captured for a given job, there are differetne approaches available for constructing a query to extract your attachments
 
-## Get All Attachments on a Job
+### Get All Attachments on a Job
 
 The most convinient way to simply extract details of all of the attachments on a job is to use the attachments field on the job
 ```graphql
@@ -414,7 +426,7 @@ The most convinient way to simply extract details of all of the attachments on a
 }
 ```
 
-## Get Attachments on a Step or Substep
+### Get Attachments on a Step or Substep
 
 Alternatively attachment details can be returned on the step or substep on which they were captured
 ```graphql
@@ -453,7 +465,7 @@ Alternatively attachment details can be returned on the step or substep on which
 }
 ```
 
-## Attachment Model
+### Attachment Model
 The attachment model provides details of both the original attachment and additionally any thumbnails that WorkfloPlus has generated; if you query a job shortly after it has been completed you may find that all attachments and thumbnails are not present in the result as they are still syncing or being generated
 ```graphql
 {
