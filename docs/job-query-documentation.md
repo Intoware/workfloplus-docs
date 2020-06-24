@@ -276,8 +276,8 @@ There are a range of fields on the job level that can be included in the query a
         geoLatAverage         # Median average latitude across all completed steps
         metadata              # Any metadata attached to the job displayed as an array of name value pairs
         {
-        name
-        value
+            name
+            value
         }
     }
 }
@@ -342,7 +342,7 @@ Many users will not need to consider to substeps level and will be able to build
 ```
 
 ## Selecting Specific Steps
-specific steps can be selected to be returned in the query and named at the same time
+Specific steps can be selected to be returned in the query and named at the same time
 
 **Step Search**
 A search term can be applied to the steps array, this will look for an exact match against each stepId, stepTag and then stepTitle. If none are found it will return null, if one or more matches are found it will return the first match that it finds.
@@ -454,7 +454,7 @@ Alternatively attachment details can be returned on the step or substep on which
 ```
 
 ## Attachment Model
-The attachment model provides details of both the original attachment and additionally any thumbnails that WorkfloPlus has generated; if you query a job shortly after is has been completed you may find that all attachments and thumbnails are not present in the result as they are still syncing or being generated
+The attachment model provides details of both the original attachment and additionally any thumbnails that WorkfloPlus has generated; if you query a job shortly after it has been completed you may find that all attachments and thumbnails are not present in the result as they are still syncing or being generated
 ```graphql
 {
   jobs
