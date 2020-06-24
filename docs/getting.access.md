@@ -24,7 +24,16 @@ See [GraphQL Overview](graphql-overview) for an explanation of the types of quer
 These keys are available within the [Query Designer](https://dashboard.workfloplus.com/query) through the Keys dialog.
 From here you can regenerate the keys, and copy them to your clipboard for convenience.
 
-From a technical standpoint there is no difference between the Primary and Secondary keys and you can use them for your own purposes.
+WorkfloPlus primarily employs Oauth2 as the security protocal for APIs however many of the tools that our users wish to use with their WorkfloPlus data can't readily generate the bearer tokens for an Oauth2 API. Therefore the Query API employs access keys; two keys are available per team to use on all calls, these keys can be rotated and generated in line with an internal security protocal.
+
+From a technical standpoint there is no difference between the Primary and Secondary keys and you can use them for your own purposes; typically though the Primary key is used on an ongoing basis and the Secondary key only used only temporarily whilst keys are rotated.
+
+Follow this process to rotate your storage account keys:
+
+1. Update the connection strings in your application(s) query(ies) to use the Secondary key.
+2. Regenerate the Primary access key for your queries.
+3. Update the connection strings in your application(s) query(ies) to use the new Primary key.
+4. Regenerate the Secondary key in the same manner.
 
 **WARNING - If you regenerate a key, any existing links using that key will stop working**
 
@@ -61,7 +70,7 @@ As with the Primary/Secondary Keys, the temporary key can be appended to the que
         ... Other Job Fields ...
         "key": {
           "value": "AAAAAAAABBBBBBCCCCCCCCCCCC",
-          "expiry": "2020-06-11"
+          "expiry": "2020-06-11T14:03:07Z"
         }
       }
     ]
