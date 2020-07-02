@@ -122,7 +122,7 @@ If you wish to match on one or more usernames you can add this as part of the qu
 ```
 ```graphql
 {
-    jobs(userName: ["inspector1@repairs.com", "inspector2@repairs.com"]
+    jobs(userName: ["inspector1@repairs.com", "inspector2@repairs.com"])
     {
         
     }
