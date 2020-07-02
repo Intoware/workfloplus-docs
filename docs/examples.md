@@ -42,10 +42,6 @@ Gets the latest 20 jobs with some basic metadata.
 ```
 
 ## Get All Reports
-{: .d-inline-block }
-
-Coming Soon
-{: .label .label-yellow }
 
 Gets the latest 5 jobs containing with a list of generated PDF reports and their download link.
 
@@ -177,9 +173,6 @@ For the latest 5 jobs, gather more detailed metadata on the job.
 ```
 
 ## Get All Users
-{: .d-inline-block }
-Coming Soon
-{: .label .label-yellow }
 
 Gets the list of all users and their groups
 
