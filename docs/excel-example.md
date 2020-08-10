@@ -2,7 +2,7 @@
 layout: page
 title: Ingest Data to Excel
 permalink: /excelexample
-nav_order: 12
+nav_order: 13
 ---
 
 ## Ingest WorkfloPlus Data to Excel
