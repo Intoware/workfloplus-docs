@@ -32,7 +32,7 @@ The base query structure for a job query is as follows (N.B. this query alone wi
 ```
 
 ## Filtering on specific Jobs
-By default the query will return the first 10 completed jobs for your team; however there are several query parameters that can be used to filter the query to return only the required jobs
+By default the query will return the first 50 completed jobs for your team; however there are several query parameters that can be used to filter the query to return only the required jobs
 
 ### Filtering on Workflow(s)
 There are several options for filtering on workflows but you can only apply one of them
@@ -245,7 +245,7 @@ If you wish to filter on jobs updated before a given date and time you can speci
 
 ### Limit, Order & Pagination
 
-By default a query on the Jobs model will return data for up to the first 10 jobs that meet the criteria of the filter, however this number can be specified using the limit parameter, any value between 1 and 100 is allowed.
+By default a query on the Jobs model will return data for up to the first 50 jobs that meet the criteria of the filter, however this number can be specified using the limit parameter, any value between 1 and 100 is allowed.
 
 By default a query on the Jobs model will return data for the first n jobs however the order of the data can be controlled using the order parameter; this is equivalent to setting order = "asc", setting the order = "desc" will return the last n jobs.
 
