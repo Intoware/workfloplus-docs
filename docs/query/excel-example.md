@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Ingest Data to Excel
-permalink: /excelexample
+parent: Query API
+permalink: /query/excelexample
 nav_order: 12
 ---
 

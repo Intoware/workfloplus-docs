@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Querying Jobs
-permalink: /jobquery
+parent: Query API
+permalink: /query/jobquery
 nav_order: 11
 ---
 

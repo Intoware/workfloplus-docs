@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Getting API Access
-permalink: /getting-access
+parent: Query API
+permalink: /query/getting-access
 nav_order: 3
 ---
 

@@ -1,0 +1,32 @@
+$wfp-dark-blue: #222d43;
+$wfp-light-blue: #00d2f1;
+$wfp-green: #00ff6f;
+$wfp-white: #ecf2f6;
+$wfp-grey: #485156;
+
+$wfp-2-teal: #21546b;
+$wfp-2-dark-grey: #34393b;
+$wfp-2-mid-grey: #485156;
+$wfp-2-light-grey: #8a959c;
+$wfp-2-grey-blue: #bfcfd9;
+$wfp-2-green: #1cbf9a;
+$wfp-2-blue: #41aadb;
+
+$tb-lighter-white: #eff4f7;
+
+
+$body-background-color: $tb-lighter-white;
+$sidebar-color: $wfp-white;
+$search-background-color: $tb-lighter-white;
+$table-background-color: $tb-lighter-white;
+$code-background-color: $wfp-white;
+$feedback-color: darken($sidebar-color, 3%) !default;
+
+$body-text-color: $wfp-2-dark-grey;
+$body-heading-color: $wfp-2-dark-grey;
+$search-result-preview-color: $wfp-2-mid-grey;
+$nav-child-link-color: $wfp-dark-blue;
+$link-color: $wfp-light-blue;
+$btn-primary-color: $purple-100 !default;
+$base-button-color: #f7f7f7 !default;
+

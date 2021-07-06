@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Getting Started
-permalink: /getting-started
+parent: Query API
+permalink: /query/getting-started
 nav_order: 3
 nav_exclude: true
 ---

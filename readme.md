@@ -8,9 +8,10 @@ This repo contains the code to the [WorkfloPlus Developer documentation](https:/
 
 1. Clone the Repository
 1. Install Ruby
-1. From the repository location
+1. From the repository location (cd workfloplus-docs)
     1. Run `gem install bundler jekyll --user-install` to install Jekyll and Bundler
-    1. Run `bundle install --path vendor/bundle` to install any dependencies required
+    1. Run `bundle config set --local path 'vendor/bundle'`
+    1. Run `bundle install` to install any dependencies required
 
 ## Testing the Site
 

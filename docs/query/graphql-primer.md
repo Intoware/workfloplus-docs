@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: GraphQL Overview
-permalink: /graphql-overview
+parent: Query API
+permalink: /query/graphql-overview
 nav_order: 2
 ---
 
