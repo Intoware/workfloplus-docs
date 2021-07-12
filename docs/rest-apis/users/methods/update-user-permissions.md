@@ -13,12 +13,20 @@ nav_order: 4
 PUT https://accounts.workfloplus.com/api/team/user/{userId}/permissions
 ```
 
+
 ## Authorization
 
 *Bearer Token*
 
 Policy
 [Team_Admin]({{site.url}}{{site.baseurl}}/authentication/policies#team_admin)
+
+
+## Headers
+
+| Key     | Value        |
+| ----------- | ----------- |
+| Authorization | Bearer {token}      |
 
 
 ## Path Parameters

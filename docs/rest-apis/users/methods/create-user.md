@@ -13,6 +13,7 @@ nav_order: 3
 POST https://accounts.workfloplus.com/api/team/user
 ```
 
+
 ## Authorization
 
 *Bearer Token*
@@ -20,11 +21,12 @@ POST https://accounts.workfloplus.com/api/team/user
 Policy
 [Team_Admin]({{site.url}}{{site.baseurl}}/authentication/policies#team_admin)
 
-## Headers
 
+## Headers
 
 | Key     | Value        |
 | ----------- | ----------- |
+| Authorization | Bearer {token}      |
 | Content-Type | application/json      |
 
 
@@ -43,14 +45,14 @@ Policy
 ### JSON Representation
 ```
 {
-    "password":"3DfJ/84dY",
-    "teamName":"solarenergy",
-    "mode":0,
-    "userId":"60e3054c04cb64000128d658",
+    "password": "3DfJ/84dY",
+    "teamName": "solarenergy",
+    "mode": 0,
+    "userId": "60e3054c04cb64000128d658",
     "username": "chege.naengop@solarenergy.com",
     "emailAddress": "chege.naengop@solarenergy.com",
     "name": "Chege Naengop",
-    "created":"2021-07-05T13:12:44.7442233Z",
-    "locked":false
+    "created": "2021-07-05T13:12:44.7442233Z",
+    "locked": false
 }
 ```

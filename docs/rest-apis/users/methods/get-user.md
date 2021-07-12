@@ -13,12 +13,21 @@ nav_order: 2
 GET https://accounts.workfloplus.com/api/team/user/{user_id}
 ```
 
+
 ## Authorization
 
 *Bearer Token*
 
 Policy
 Any Valid Token
+
+
+## Headers
+
+| Key     | Value        |
+| ----------- | ----------- |
+| Authorization | Bearer {token}      |
+
 
 ## Path Parameters
 
