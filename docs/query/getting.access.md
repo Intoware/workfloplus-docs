@@ -6,9 +6,9 @@ permalink: /query/getting-access
 nav_order: 3
 ---
 
-# Accessing WorkfloPlus GraphQL API
+# Accessing {{ site.product_name }} GraphQL API
 
-The WorkfloPlus GraphQL endpoints can be accessed in the following ways:
+The {{ site.product_name }} GraphQL endpoints can be accessed in the following ways:
 
 - *Primary/Secondary Key* - A pre-generated set of keys, available within the Query Designer
 - *Temporary Key* - A temporary key, sent as part of a HTTP Trigger
@@ -21,11 +21,11 @@ See [GraphQL Overview](graphql-overview) for an explanation of the types of quer
 
 ## Primary/Secondary Keys
 
-2 pre-generated keys are created for each WorkfloPlus team.
+2 pre-generated keys are created for each {{ site.product_name }} team.
 These keys are available within the [Query Designer](https://dashboard.workfloplus.com/query) through the Keys dialog.
 From here you can regenerate the keys, and copy them to your clipboard for convenience.
 
-WorkfloPlus primarily employs Oauth2 as the security protocal for APIs however many of the tools that our users wish to use with their WorkfloPlus data can't readily generate the bearer tokens for an Oauth2 API. Therefore the Query API employs access keys; two keys are available per team to use on all calls, these keys can be rotated and generated in line with an internal security protocal.
+{{ site.product_name }} primarily employs Oauth2 as the security protocal for APIs however many of the tools that our users wish to use with their WorkfloPlus data can't readily generate the bearer tokens for an Oauth2 API. Therefore the Query API employs access keys; two keys are available per team to use on all calls, these keys can be rotated and generated in line with an internal security protocal.
 
 From a technical standpoint there is no difference between the Primary and Secondary keys and you can use them for your own purposes; typically though the Primary key is used on an ongoing basis and the Secondary key only used only temporarily whilst keys are rotated.
 
@@ -47,7 +47,7 @@ To use a pre-generated key it should be appended to any Query URL using the para
 
 For example:
 
-`https://gateway.workfloplus.com/api/query/v2/graph?key=MyCopiedKey`
+`{{ site.main_api_base_url }}/api/query/v2/graph?key=MyCopiedKey`
 
 *Note: When you export a query from the Query Designer, the generated URL will contain the Primary Key*
 
@@ -94,7 +94,7 @@ From the [WorkfloPlus Developer Tools](https://accounts.workfloplus.com/manage/d
 This will return an `access_token` and `id_token` that can be used in the Headers of a GraphQL request.
 
 ```
-GET - https://gateway.workfloplus.com/api/query/v2/graph?query=%7B%20jobs%20%7B%20jobId%20jobTitle%20%7D%20%7D
+GET - {{ site.main_api_base_url }}/api/query/v2/graph?query=%7B%20jobs%20%7B%20jobId%20jobTitle%20%7D%20%7D
 
 HEADERS:
 Authorization : Bearer [PASTE ACCESS TOKEN HERE]

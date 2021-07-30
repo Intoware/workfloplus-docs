@@ -11,7 +11,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/team.admin
+* {{ site.policies_base_url }}/team.admin
 
 
 #### Permissions
@@ -23,8 +23,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/job.modify
-* https://www.workfloplus.com/auth/job.admin
+* {{ site.policies_base_url }}/job.modify
+* {{ site.policies_base_url }}/job.admin
 
 
 #### Permissions
@@ -36,9 +36,9 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/job.read
-* https://www.workfloplus.com/auth/job.read_all
-* https://www.workfloplus.com/auth/job.admin
+* {{ site.policies_base_url }}/job.read
+* {{ site.policies_base_url }}/job.read_all
+* {{ site.policies_base_url }}/job.admin
 
 
 #### Permissions
@@ -51,9 +51,9 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/job.read_all
-* https://www.workfloplus.com/auth/job.modify
-* https://www.workfloplus.com/auth/job.admin
+* {{ site.policies_base_url }}/job.read_all
+* {{ site.policies_base_url }}/job.modify
+* {{ site.policies_base_url }}/job.admin
 
 
 #### Permissions
@@ -66,7 +66,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/query.admin
+* {{ site.policies_base_url }}/query.admin
 
 
 #### Permissions
@@ -79,8 +79,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/query.read
-* https://www.workfloplus.com/auth/query.admin
+* {{ site.policies_base_url }}/query.read
+* {{ site.policies_base_url }}/query.admin
 
 
 #### Permissions
@@ -93,7 +93,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/reports.admin
+* {{ site.policies_base_url }}/reports.admin
 
 
 #### Permissions
@@ -106,8 +106,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/reports.create
-* https://www.workfloplus.com/auth/reports.admin
+* {{ site.policies_base_url }}/reports.create
+* {{ site.policies_base_url }}/reports.admin
 
 
 #### Permissions
@@ -121,8 +121,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/reports.modify
-* https://www.workfloplus.com/auth/reports.admin
+* {{ site.policies_base_url }}/reports.modify
+* {{ site.policies_base_url }}/reports.admin
 
 
 #### Permissions
@@ -135,9 +135,9 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/reports.read
-* https://www.workfloplus.com/auth/reports.create
-* https://www.workfloplus.com/auth/reports.admin
+* {{ site.policies_base_url }}/reports.read
+* {{ site.policies_base_url }}/reports.create
+* {{ site.policies_base_url }}/reports.admin
 
 
 #### Permissions
@@ -151,7 +151,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/schedule.admin
+* {{ site.policies_base_url }}/schedule.admin
 
 
 #### Permissions
@@ -164,9 +164,9 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/schedule.read
-* https://www.workfloplus.com/auth/schedule.read_all
-* https://www.workfloplus.com/auth/schedule.admin
+* {{ site.policies_base_url }}/schedule.read
+* {{ site.policies_base_url }}/schedule.read_all
+* {{ site.policies_base_url }}/schedule.admin
 
 
 #### Permissions
@@ -179,8 +179,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/schedule.read_all
-* https://www.workfloplus.com/auth/schedule.admin
+* {{ site.policies_base_url }}/schedule.read_all
+* {{ site.policies_base_url }}/schedule.admin
 
 
 #### Permissions
@@ -193,7 +193,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/spoke.client
+* {{ site.policies_base_url }}/spoke.client
 
 
 #### Permissions
@@ -205,7 +205,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/team.admin
+* {{ site.policies_base_url }}/team.admin
 
 
 #### Permissions
@@ -218,7 +218,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/teamsettings.admin
+* {{ site.policies_base_url }}/teamsettings.admin
 
 
 #### Permissions
@@ -231,8 +231,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/teamsettings.read
-* https://www.workfloplus.com/auth/teamsettings.admin
+* {{ site.policies_base_url }}/teamsettings.read
+* {{ site.policies_base_url }}/teamsettings.admin
 
 
 #### Permissions
@@ -247,7 +247,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/trigger.admin
+* {{ site.policies_base_url }}/trigger.admin
 
 
 #### Permissions
@@ -260,8 +260,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.execute
-* https://www.workfloplus.com/auth/workflow.admin
+* {{ site.policies_base_url }}/workflow.execute
+* {{ site.policies_base_url }}/workflow.admin
 
 
 #### Permissions
@@ -274,8 +274,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/trigger.read
-* https://www.workfloplus.com/auth/trigger.admin
+* {{ site.policies_base_url }}/trigger.read
+* {{ site.policies_base_url }}/trigger.admin
 
 
 #### Permissions
@@ -288,7 +288,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.admin
+* {{ site.policies_base_url }}/workflow.admin
 
 
 #### Permissions
@@ -301,7 +301,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.approve
+* {{ site.policies_base_url }}/workflow.approve
 
 
 #### Permissions
@@ -313,8 +313,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.create
-* https://www.workfloplus.com/auth/workflow.admin
+* {{ site.policies_base_url }}/workflow.create
+* {{ site.policies_base_url }}/workflow.admin
 
 
 #### Permissions
@@ -328,8 +328,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.delete
-* https://www.workfloplus.com/auth/workflow.admin
+* {{ site.policies_base_url }}/workflow.delete
+* {{ site.policies_base_url }}/workflow.admin
 
 
 #### Permissions
@@ -343,7 +343,7 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.execute
+* {{ site.policies_base_url }}/workflow.execute
 
 
 #### Permissions
@@ -354,8 +354,8 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.modify
-* https://www.workfloplus.com/auth/workflow.admin
+* {{ site.policies_base_url }}/workflow.modify
+* {{ site.policies_base_url }}/workflow.admin
 
 
 #### Permissions
@@ -369,10 +369,10 @@ nav_order: 10
 
 
 #### Scopes
-* https://www.workfloplus.com/auth/workflow.read
-* https://www.workfloplus.com/auth/workflow.execute
-* https://www.workfloplus.com/auth/workflow.admin
-* https://www.workfloplus.com/auth/spoke.client
+* {{ site.policies_base_url }}/workflow.read
+* {{ site.policies_base_url }}/workflow.execute
+* {{ site.policies_base_url }}/workflow.admin
+* {{ site.policies_base_url }}/spoke.client
 
 
 #### Permissions

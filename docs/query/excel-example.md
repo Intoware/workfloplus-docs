@@ -6,10 +6,10 @@ permalink: /query/excelexample
 nav_order: 12
 ---
 
-## Ingest WorkfloPlus Data to Excel
-The WorkfloPlus GraphQL Query API supports integration with many tools; one of the more common requests is for users to extract their data from WorkfloPlus into Excel. This example outlines an approach for not only ingesting data into Excel but moreover for creating a live link between Excel and WorkfloPlus so that the data set can be refreshed on demand from within Excel.
+## Ingest {{ site.product_name }} Data to {{ site.product_name }}
+The {{ site.product_name }} GraphQL Query API supports integration with many tools; one of the more common requests is for users to extract their data from WorkfloPlus into Excel. This example outlines an approach for not only ingesting data into Excel but moreover for creating a live link between Excel and {{ site.product_name }} so that the data set can be refreshed on demand from within Excel.
   
-![WorkfloPlus Excel](assets/workfloplus-excel.png)
+![{{ site.product_name }} Excel](assets/product-to-excel.png)
 ### 1. Create the Query
 In the following example selected data is extracted for each Inspection & Maintenance activity that is carried out. The query includes only jobs that are completed on the "Component Inspection & Maintenance" workflow. 
 

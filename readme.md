@@ -2,7 +2,7 @@
 
 # WorkfloPlus Developer Documentation
 
-This repo contains the code to the [WorkfloPlus Developer documentation](https://intoware.github.io/workfloplus-docs). The code in this repo is automatically deployed to GitHub pages, but can be built and deployed locally.
+This repo contains the code to the [{{ site.product_name }} Developer documentation](https://intoware.github.io/workfloplus-docs). The code in this repo is automatically deployed to GitHub pages, but can be built and deployed locally.
 
 ## Build Instructions
 

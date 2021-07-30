@@ -11,7 +11,7 @@ nav_order: 3
 ## HTTP Request
 
 ```
-POST https://gateway.workfloplus.com/workflows/v2
+POST {{ site.main_api_base_url }}/workflows/v2
 ```
 
 ## Authorization

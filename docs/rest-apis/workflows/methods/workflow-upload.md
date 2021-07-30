@@ -4,7 +4,7 @@ title: Upload a Workflow
 parent: Workflows
 permalink: /workflows/upload
 has_children: true
-nav_order: 1
+nav_order: 4
 ---
 
 ## Overview
@@ -45,7 +45,7 @@ curl -XPOST
 -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6...'
 -H "Content-type: application/json"
 -d '{"blockSize": 102400, "fileSize": 153600, "friendlyFileName": "Workflow1.zip"}'
-'https://gateway.workfloplus.com/workflows/v2/upload'
+'{{ site.main_api_base_url }}/workflows/v2/upload'
 ```
 
 
@@ -66,7 +66,7 @@ curl -XPOST
 -H 'Content-Length: 102400'
 -H 'Content-Range: bytes 0-102399/153600'
 -d 'PK\x03\x04\x14\x00\x00\x00\x08\x00...'
-'https://gateway.workfloplus.com/workflows/v2/upload/60578b426a9eb4000114ec13'
+'{{ site.main_api_base_url }}/workflows/v2/upload/60578b426a9eb4000114ec13'
 ```
 #### Block 2 
 ```curl
@@ -75,7 +75,7 @@ curl -XPOST
 -H 'Content-Length: 102400'
 -H 'Content-Range: bytes 102400-153599/153600'
 -d '\xf7\xfb\xb7\x05x\xea~\x01\xdf\...'
-'https://gateway.workfloplus.com/workflows/v2/upload/60578b426a9eb4000114ec13'
+'{{ site.main_api_base_url }}/workflows/v2/upload/60578b426a9eb4000114ec13'
 ```
 
 
@@ -85,5 +85,5 @@ curl -XPOST
 -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6...'
 -H "Content-type: application/json"
 -d '{ "uploadId": "60578b426a9eb4000114ec13", "name": "My First Workflow" }'
-'https://gateway.workfloplus.com/workflows/v2'
+'{{ site.main_api_base_url }}/workflows/v2'
 ```

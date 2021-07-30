@@ -42,9 +42,9 @@ Any Valid Token
     },
     {
         "userId": "60df09e19108b2e627754f54",
-        "username": "talika.divan@solarenergy.com",
-        "emailAddress": "talika.divan@solarenergy.com",
-        "name": "Talika Divan busfield",
+        "username": "tegla.loroupe@solarenergy.com",
+        "emailAddress": "tegla.loroupe@solarenergy.com",
+        "name": "Tegla Loroupe",
         "created": "2021-06-01T15:14:52.000Z",
         "locked": false
     }

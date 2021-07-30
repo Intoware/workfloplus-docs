@@ -27,6 +27,7 @@ Policy
 | Key     | Value        |
 | ----------- | ----------- |
 | Authorization | Bearer {token}      |
+| Content-Type | application/json      |
 
 
 ## Path Parameters
@@ -35,14 +36,6 @@ Policy
 | Parameter   | Type        |
 | ----------- | ----------- |
 | userId | string      |
-
-
-## Headers
-
-
-| Key     | Value        |
-| ----------- | ----------- |
-| Content-Type | application/json      |
 
 
 ## Request Body
