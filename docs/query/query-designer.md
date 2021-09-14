@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Query Designer
-permalink: /query-designer
+parent: Query API
+permalink: /query/query-designer
 nav_order: 10
 ---
 

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: GraphQL Overview
-permalink: /graphql-overview
+parent: Query API
+permalink: /query/graphql-overview
 nav_order: 2
 ---
 
@@ -85,7 +86,7 @@ Unlike the WorkfloPlus Query Designer, Postman supports GraphQL variables. This 
 
 If you'd like to build this functionality into your application, you can access the data via the direct HTTP GET or POST endpoints.
 
-`https://gateway.workfloplus.com/api/query/v2/graph`
+`{{ site.main_api_base_url }}/api/query/v2/graph`
 
 *Note, you will need to authenticate this request using one of the supported [access key formats](getting-access)*
 
@@ -108,7 +109,7 @@ For example:
 
 becomes
 
-`https://gateway.workfloplus.com/api/query/v2/graph?query=%7B%20jobs%20%7B%20jobId%20jobTitle%20%7D%20%7D`
+`{{ site.main_api_base_url }}/api/query/v2/graph?query=%7B%20jobs%20%7B%20jobId%20jobTitle%20%7D%20%7D`
 
 **POST Request**
 

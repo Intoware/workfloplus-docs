@@ -23,8 +23,18 @@ url: "https://intoware.github.io" # the base hostname & protocol for your site, 
 twitter_username: intoware
 github_username:  intoware
 
+product_name: WorkfloPlus
+company_name: Intoware
+support_url: https://help.workfloplus.com
+
+accounts_api_base_url: https://accounts.workfloplus.com/api
+main_api_base_url: https://gateway.workfloplus.com
+dashboard_base_url: https://dashboard.workfloplus.com
+policies_base_url: https://www.workfloplus.com/auth
+
 # Build settings
 markdown: kramdown
+color_scheme: foo
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
@@ -46,6 +56,6 @@ aux_links:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-footer_content: "Copyright &copy; 2020 Intoware Limited."
+footer_content: "Copyright &copy; 2021 Intoware Limited."
 
 logo: assets/logo.png
