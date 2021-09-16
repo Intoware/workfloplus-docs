@@ -1,0 +1,43 @@
+---
+layout: default
+parent: Collections
+title: Create Collection
+permalink: /collections/create-collection
+nav_order: 3
+---
+
+
+## HTTP Request
+
+```
+POST https://accounts.workfloplus.com/collections/v1/collection
+```
+
+## Authorization
+
+*Bearer Token*
+
+Policy
+Any Valid Token
+
+## Headers
+
+| Key     | Value        |
+| ----------- | ----------- |
+| Authorization | Bearer {token}      |
+| Content-Type | application/json      |
+
+## Request Body
+### JSON Representation
+```
+{
+  "name":"New Collection"
+}
+```
+## Response Body
+### JSON Representation
+```
+{
+  "collectionId":"61403c1230e5a30001d4440b"
+}
+```
