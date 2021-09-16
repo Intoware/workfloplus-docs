@@ -10,7 +10,7 @@ nav_order: 3
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/collections/v1/collection
+POST {{ site.main_api_base_url }}/collections/v1/collection
 ```
 
 ## Authorization

@@ -11,7 +11,7 @@ nav_order: 1
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/collections/v1/upload
+POST {{ site.main_api_base_url }}/collections/v1/upload
 ```
 
 ## Authorization

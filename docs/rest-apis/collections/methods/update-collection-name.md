@@ -10,7 +10,7 @@ nav_order: 2
 ## HTTP Request
 
 ```
-PUT https://accounts.workfloplus.com/collections/v1/collection/{collection_id}
+PUT {{ site.main_api_base_url }}/collections/v1/collection/{collection_id}
 ```
 
 ## Authorization

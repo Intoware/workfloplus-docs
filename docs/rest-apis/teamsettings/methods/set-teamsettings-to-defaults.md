@@ -1,8 +1,8 @@
 ---
 layout: default
 parent: TeamSettings
-title: Team Defaults
-permalink: /teamsettings/team-defaults
+title: Set TeamSettings to Defaults
+permalink: /teamsettings/set-teamsettings-to-defaults
 nav_order: 1
 ---
 
@@ -10,7 +10,7 @@ nav_order: 1
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/teamsettings/v1/defaults
+POST {{ site.main_api_base_url }}/teamsettings/v1/defaults
 ```
 
 

@@ -10,7 +10,7 @@ nav_order: 5
 ## HTTP Request
 
 ```
-DEL https://accounts.workfloplus.com/collections/v1/collection/{collection_id}
+DEL {{ site.main_api_base_url }}/collections/v1/collection/{collection_id}
 ```
 
 ## Authorization

@@ -10,7 +10,7 @@ nav_order: 1
 ## HTTP Request
 
 ```
-GET https://accounts.workfloplus.com/collections/v1/collection/{collection_id}
+GET {{ site.main_api_base_url }}/collections/v1/collection/{collection_id}
 
 ```
 
