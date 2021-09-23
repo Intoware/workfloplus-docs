@@ -35,6 +35,7 @@ Any Valid Token
   {
     "id":"5f367fe76147f40001def972",
     "name":"Example Group 2"
-  }]
+  }
+]
 
 ```

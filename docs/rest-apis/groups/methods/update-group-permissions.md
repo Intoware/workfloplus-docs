@@ -35,8 +35,6 @@ Policy
 ### JSON Representation
 ```
 {
-"owner":"false",
-"admin":"true",
 "dataViewer":"true",
 "editor":"true",
 "modifier":"true",
