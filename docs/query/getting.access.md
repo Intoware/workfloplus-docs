@@ -22,7 +22,7 @@ See [GraphQL Overview](graphql-overview) for an explanation of the types of quer
 ## Primary/Secondary Keys
 
 2 pre-generated keys are created for each {{ site.product_name }} team.
-These keys are available within the [Query Designer](https://dashboard.workfloplus.com/query) through the Keys dialog.
+These keys are available within the [Query Designer]({{ site.dashboard_base_url }}/query) through the Keys dialog.
 From here you can regenerate the keys, and copy them to your clipboard for convenience.
 
 {{ site.product_name }} primarily employs Oauth2 as the security protocal for APIs however many of the tools that our users wish to use with their WorkfloPlus data can't readily generate the bearer tokens for an Oauth2 API. Therefore the Query API employs access keys; two keys are available per team to use on all calls, these keys can be rotated and generated in line with an internal security protocal.

@@ -10,7 +10,7 @@ nav_order: 3
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/api/team/user
+POST {{ site.accounts_api_base_url }}/team/user
 ```
 
 

@@ -10,7 +10,7 @@ nav_order: 4
 ## HTTP Request
 
 ```
-PUT https://accounts.workfloplus.com/api/team/user/{userId}/permissions
+PUT {{ site.accounts_api_base_url }}/team/user/{userId}/permissions
 ```
 
 

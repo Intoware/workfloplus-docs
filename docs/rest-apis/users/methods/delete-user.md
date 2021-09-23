@@ -10,7 +10,7 @@ nav_order: 5
 ## HTTP Request
 
 ```
-DEL https://accounts.workfloplus.com/api/team/user/{user_id}
+DEL {{ site.accounts_api_base_url }}/team/user/{user_id}
 ```
 
 

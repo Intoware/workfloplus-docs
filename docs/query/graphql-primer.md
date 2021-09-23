@@ -64,7 +64,7 @@ Within WorkfloPlus, GraphQL is designed to be embedded into data clients (ie: so
 Preferred
 {: .label .label }
 
-Available within the [WorkfloPlus Dashboard](https://dashboard.workfloplus.com/query){:target="_blank"} (WorkfloPlus account required), the Query Designer can be used to test your GraphQL queries against the data in your WorkfloPlus Team. Once you have tested out your query then you can export a GET or POST URL to import into your own system.
+Available within the [WorkfloPlus Dashboard]({{ site.dashboard_base_url }}/query){:target="_blank"} (WorkfloPlus account required), the Query Designer can be used to test your GraphQL queries against the data in your WorkfloPlus Team. Once you have tested out your query then you can export a GET or POST URL to import into your own system.
 
 For more information on the query designer, see [here](query-designer).
 

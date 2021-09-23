@@ -9,7 +9,7 @@ nav_order: 2
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/api/group
+POST {{ site.accounts_api_base_url }}/group
 ```
 ## Authorization
 

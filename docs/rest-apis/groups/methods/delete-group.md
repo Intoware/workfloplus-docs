@@ -9,7 +9,7 @@ nav_order: 8
 ## HTTP Request
 
 ```
-DEL https://accounts.workfloplus.com/api/group/{group_id}
+DEL {{ site.accounts_api_base_url }}/group/{group_id}
 ```
 ## Authorization
 
