@@ -39,7 +39,7 @@ Policy
 ## Response Body
 ### JSON Representation
 ```
-
+{
   "password":"3DfJ/84dY"
 }
 ```
