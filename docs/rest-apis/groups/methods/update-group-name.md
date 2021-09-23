@@ -1,25 +1,22 @@
 ---
 layout: default
-parent: Users
-title: Reset User's Password
-permalink: /users/reset-user-password
-nav_order: 3
+parent: Groups
+title: Update Group Name
+permalink: /groups/Update-group-name
+nav_order: 4
 ---
-
 
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/api/team/{user_id}/resetpassword
+PUT https://accounts.workfloplus.com/api/group/{group_id}
 ```
-
 ## Authorization
 
 *Bearer Token*
 
 Policy
-[Team_Admin]({{site.url}}{{site.baseurl}}/authentication/policies#team_admin)
-
+Any Valid Token
 
 ## Headers
 
@@ -29,17 +26,24 @@ Policy
 
 ## Path Parameters
 
-
 | Parameter   | Type        |
 | ----------- | ----------- |
-| user_id | string      |
+| group_id | string      |
 
 
+## Request Body
+### JSON Representation
+```
+{
+  "name":"New Group Name"
+}
+```
 
 ## Response Body
 ### JSON Representation
 ```
 {
-  "password":"3DfJ/84dY"
+  "id":"5e4a95c36abe6e0001f80592",
+  "name":"New Group Name"
 }
 ```

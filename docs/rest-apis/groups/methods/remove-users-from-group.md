@@ -1,25 +1,22 @@
 ---
 layout: default
-parent: Users
-title: Reset User's Password
-permalink: /users/reset-user-password
-nav_order: 3
+parent: Groups
+title: Remove Users from Group 
+permalink: /groups/remove-users-from-group
+nav_order: 7
 ---
-
 
 ## HTTP Request
 
 ```
-POST https://accounts.workfloplus.com/api/team/{user_id}/resetpassword
+DEL https://accounts.workfloplus.com/api/group/{group_id}/users
 ```
-
 ## Authorization
 
 *Bearer Token*
 
 Policy
 [Team_Admin]({{site.url}}{{site.baseurl}}/authentication/policies#team_admin)
-
 
 ## Headers
 
@@ -29,17 +26,17 @@ Policy
 
 ## Path Parameters
 
-
 | Parameter   | Type        |
 | ----------- | ----------- |
-| user_id | string      |
+| group_id | string      |
 
 
-
-## Response Body
+## Request Body
 ### JSON Representation
 ```
-{
-  "password":"3DfJ/84dY"
-}
+[
+ "5dd501931da0b45001bf0da3",
+ "5dd501931da0b30551bf0ra3"
+]
 ```
+User Ids of the users to be added are given in json body.
