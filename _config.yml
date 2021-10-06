@@ -28,6 +28,7 @@ company_name: Intoware
 support_url: https://help.workfloplus.com
 
 accounts_api_base_url: https://accounts.workfloplus.com/api
+accounts_dev_tools_url: https://accounts.workfloplus.com/manage/dev
 main_api_base_url: https://gateway.workfloplus.com
 dashboard_base_url: https://dashboard.workfloplus.com
 policies_base_url: https://www.workfloplus.com/auth
