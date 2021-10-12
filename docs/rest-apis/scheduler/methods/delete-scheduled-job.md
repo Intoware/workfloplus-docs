@@ -2,7 +2,7 @@
 layout: default
 parent: Scheduler
 title: Delete a Scheduled Job
-permalink: /jobs/delete-scheduled-job
+permalink: /scheduler/delete-scheduled-job
 nav_order: 7
 ---
 

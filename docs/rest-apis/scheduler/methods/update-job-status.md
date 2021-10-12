@@ -2,7 +2,7 @@
 layout: default
 parent: Scheduler
 title: Update the Status of a Scheduled Job
-permalink: /jobs/update-job-status
+permalink: /scheduler/update-job-status
 nav_order: 5
 ---
 

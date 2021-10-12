@@ -2,7 +2,7 @@
 layout: default
 parent: Scheduler
 title: Get My Scheduled Jobs
-permalink: /jobs/get-my-scheduled-jobs
+permalink: /scheduler/get-my-scheduled-jobs
 nav_order: 3
 ---
 

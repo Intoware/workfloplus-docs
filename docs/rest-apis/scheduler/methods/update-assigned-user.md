@@ -2,7 +2,7 @@
 layout: default
 parent: Scheduler
 title: Update Assigned User for a Job
-permalink: /jobs/update-assigned-user
+permalink: /scheduler/update-assigned-user
 nav_order: 6
 ---
 

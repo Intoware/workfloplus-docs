@@ -2,7 +2,7 @@
 layout: default
 parent: Scheduler
 title: Create a Scheduled Job
-permalink: /jobs/create-scheduled-job
+permalink: /scheduler/create-scheduled-job
 nav_order: 8
 ---
 
