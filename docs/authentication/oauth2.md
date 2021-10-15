@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Policies
+title: OAuth2
 parent: Authentication
 permalink: /authentication/oauth2
 
@@ -22,7 +22,7 @@ A developer or systems integrator working on an integration to {{site.product_na
 
 Tokens can be requested from the Identity Server; in order to gain a token you must provide valid credentials. Once signed in to {{site.product_name}} you can request a token from the [developer tools page]({{ site.accounts_dev_tools_url }}), however, manually requesting a token is not a useful approach for enabling an integration - you will want your integration to be able to request tokens from an API as they are needed.
 
-The good news is that that API exists, however, for security reasons you cannot practicably access that API using your user credentials. Instead the recommended approach is to create a _machine to machine (M2M) client_, these clients a very similar to a user, they are enabled with one or more permissions that define what they are and aren't allowed to do, however, whilst a user in {{site.product_name}} represents a person, an M2M client represents a tool/product/integration that is permitted to interface with {{site.product_name}}.
+The good news is that that API exists, however, for security reasons you cannot practicably access that API using your user credentials. Instead the recommended approach is to create a _machine to machine (M2M) client_, these clients are very similar to a user, they are enabled with one or more permissions that define what they are and aren't allowed to do, however, whilst a user in {{site.product_name}} represents a person, an M2M client represents a tool/product/integration that is permitted to interface with {{site.product_name}}.
 
 
 ### 2. Make an API Request

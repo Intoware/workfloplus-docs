@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Policies
+title: Permissions, Scopes & Policies
 parent: Authentication
 permalink: /authentication/permissions
 
