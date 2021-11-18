@@ -4,7 +4,7 @@ title: Policies
 parent: Authentication
 permalink: /authentication/policies
 
-nav_order: 10
+nav_order: 40
 ---
 
 ### Client_Admin
