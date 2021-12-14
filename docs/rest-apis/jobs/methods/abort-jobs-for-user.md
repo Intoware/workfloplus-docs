@@ -9,7 +9,7 @@ nav_order: 13
 ## HTTP Request
 
 ```
-PUT {{ site.main_api_base_url }}/jobs/v1/abort/?{user_id}
+PUT {{ site.main_api_base_url }}/jobs/v1/abort/?{userId}
 ```
 ## Authorization
 
@@ -24,11 +24,11 @@ Policy
 | ----------- | ----------- |
 | Authorization | Bearer {token}      |
 
-## Path Parameters
+## Query Parameters
 
 | Parameter   | Type        |
 | ----------- | ----------- |
-| user_id | string      |
+| userId | string      |
 
 NB: Only incomplete jobs can be aborted.
     When an User Id is not specified it would delete all users/team's incomplete jobs.

@@ -24,14 +24,15 @@ Policy
 | ----------- | ----------- |
 | Authorization | Bearer {token}      |
 
-## Path Parameters
+## Query Parameters
 
 | Parameter   | Type        |
 | ----------- | ----------- |
-| skip | string      |
-| limit | string      |
+| skip | integer      |
+| limit | integer      |
 
 NB: Skip - To skip first {skip} number of jobs , Limit - To limit the results to {limit} number of jobs.
+Default limit is 20.
 
 ## Response Body
 ### JSON Representation
